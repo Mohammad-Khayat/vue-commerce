@@ -1,0 +1,36 @@
+@import './vars.scss';
+@mixin centerContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-dark{
+    color: $dark  !important;
+}
+.text-purple{
+    color: $purple !important;
+}
+.text-violent{
+    color: $violent !important;
+}
+.text-rose{
+    color: $rose  !important;
+}
+.text-beage{
+    color: $beage !important;
+}
+.back-dark{
+    background: $dark !important;
+}
+.back-purple{
+    background: $purple !important;
+}
+.back-violent{
+    background: $violent !important;
+}
+.back-rose{
+    background: $rose !important;
+}
+.back-beage{
+    background: $beage !important;
+}
